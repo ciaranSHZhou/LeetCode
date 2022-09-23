@@ -6,7 +6,7 @@ public:
             if (m.count(nums[i]))
                 return true;
             
-            m[nums[i]] = i;
+            ++m[nums[i]];
             
         }
         
