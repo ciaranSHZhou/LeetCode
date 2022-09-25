@@ -1,16 +1,15 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int pre = 0, cur = 0;
-        int size = nums.size();
-        
-        while (cur < size){
-            if (nums[pre] == nums[cur])
-                ++cur;
-            else
-                nums[++pre] = nums[cur++];
+        int insertIndex = 1;
+        for(int i = 1; i < nums.size(); i++){
+            // We skip to next index if we see a duplicate element
+            if(nums[i - 1] != nums[i]) {    
+                // Storing the unique element at insertIndex index and incrementing the insertIndex by 1 
+                nums[insertIndex] = nums[i];     
+                insertIndex++;
+            }
         }
-        
-        return (size == 0) ? 0 : (pre + 1);
+        return insertIndex;
     }
 };
