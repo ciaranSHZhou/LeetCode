@@ -9,7 +9,6 @@ public:
             if (i == upper)
                 return res;
             lower = i + 1;
-                
         }
 
         if (lower <= upper){
