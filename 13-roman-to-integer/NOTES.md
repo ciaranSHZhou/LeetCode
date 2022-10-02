@@ -1,2 +1,2 @@
-Time Complexity: O(n)
-Space Complexity: O(n)
+Time Complexity: O(1). Finite set of roman numerals
+Space Complexity: O(1). Finite set of roman numerals
