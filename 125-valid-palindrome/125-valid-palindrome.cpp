@@ -1,20 +1,15 @@
 class Solution {
 public:
-    bool isPalindrome(string s) {
-        string char_only = "";
-            
-        for (char c : s){
-            if (isalnum(c)){
-                char_only.push_back(tolower(c));
-            }
-        }
-        
-        
-        for (int i = 0, j = char_only.size() - 1; i < char_only.size() / 2; ++i, --j){
-            
-            if (char_only[i] != char_only[j])
-                return false;
-        }
-        return true;
-    }
+bool isPalindrome(string s) {
+int left = 0, right = s.size() - 1 ;
+while (left < right) {
+if (!isalnum(s[left])) ++left;
+else if (!isalnum(s[right])) --right;
+else if ((s[left] + 32 - 'a') %32 != (s[right] + 32 - 'a') % 32) return false;
+else {
+++left; --right;
+}
+}
+return true;
+}
 };
