@@ -4,7 +4,7 @@ public:
         if(s.size() != t.size())
             return false;
         
-        int a[26] = {0};
+        int a[26] = {};
         
         for(int i = 0; i < s.size(); ++i)
             ++a[s[i] - 'a'];
