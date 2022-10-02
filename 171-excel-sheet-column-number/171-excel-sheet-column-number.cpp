@@ -5,7 +5,8 @@ public:
         int res = 0;
         
         for (int i = 0; i < len; ++i){
-            res += (columnTitle[i] - 'A' + 1) * pow(26, len - 1 - i);
+            res *= 26;
+            res += (columnTitle[i] - 'A' + 1);
         }
         
         return res;
