@@ -1,15 +1,21 @@
 class Solution {
 public:
-bool isPalindrome(string s) {
-int left = 0, right = s.size() - 1 ;
-while (left < right) {
-if (!isalnum(s[left])) ++left;
-else if (!isalnum(s[right])) --right;
-else if ((s[left] + 32 - 'a') %32 != (s[right] + 32 - 'a') % 32) return false;
-else {
-++left; --right;
-}
-}
-return true;
-}
+    bool isPalindrome(string s) {
+    
+    int begin = 0, end = s.size() - 1;
+        
+    while (begin < end){
+        if (!isalnum(s[begin]))
+            ++begin;
+        else if (!isalnum(s[end]))
+            --end;
+        else if (tolower(s[begin]) != tolower(s[end]))
+            return false;
+        else{
+            ++begin;
+            --end;
+        }
+    }
+        return true;
+    }
 };
