@@ -17,12 +17,12 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
-        ListNode* reversed_second = reverseList(slow);
+        ListNode* reversed_second = reverseList(slow->next);
         
         ListNode* p1 = head;
         ListNode* p2 = reversed_second;
         
-        while (p2->next != NULL){
+        while (p2){
             if (p2->val != p1->val)
                 return false;
             p1 = p1->next;
