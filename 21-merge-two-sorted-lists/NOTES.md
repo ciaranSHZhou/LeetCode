@@ -1,5 +1,5 @@
 Time Complexity: O(m+n)
-Space Complexity: O(m+n)
+Space Complexity: O(m+n) Each stack frame is one
 ​
 Solution2: iteration
 ```
