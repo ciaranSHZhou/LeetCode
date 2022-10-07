@@ -1,28 +1,28 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        unordered_map<int, int> m;
+        unordered_set<int> s;
         int res = n;
         
         while (res != 1){
-            if (m[res] == 2)
-                return false;
             int temp = 0;
             int ones = res % 10;
             int tens = (res - ones)/ 10;
             
-            while (res / 10){
+            while (res){
                 temp += (res % 10) * (res % 10);
                 res /= 10;
             }
-            temp += res * res;
+
             
             res = temp;
-            ++m[res];
+    
 
-                
+            if (s.count(res)) break;
+            
+            s.insert(res);
         }
         
-        return true;
+        return res == 1;
     }
 };
