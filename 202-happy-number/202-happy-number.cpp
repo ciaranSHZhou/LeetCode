@@ -1,28 +1,21 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        unordered_set<int> s;
-        int res = n;
-        
-        while (res != 1){
-            int temp = 0;
-            int ones = res % 10;
-            int tens = (res - ones)/ 10;
-            
-            while (res){
-                temp += (res % 10) * (res % 10);
-                res /= 10;
-            }
-
-            
-            res = temp;
-    
-
-            if (s.count(res)) break;
-            
-            s.insert(res);
+        int slow = n, fast = n;
+        while (true) {
+            slow = findNext(slow);
+            fast = findNext(fast);
+            fast = findNext(fast);
+            if (slow == fast) break;
         }
-        
-        return res == 1;
+        return fast == 1;
+    }
+    int findNext(int n) {
+        int res = 0;
+        while (n > 0) {
+            res += (n % 10) * (n % 10);
+            n /= 10;
+        }
+        return res;
     }
 };
