@@ -1,3 +1,7 @@
+TC: O(logn)
+SC: O(1)
+​
+​
 Solution: Set
 ```
 class Solution {
