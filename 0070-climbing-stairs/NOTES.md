@@ -2,3 +2,8 @@ Fibonacci: The total number of ways to reach ith step is equal to sum of ways of
 ​
 TC: O(n)
 SC: O(1)
+​
+​
+2) DP Topdown
+TC: O(n)
+SC: O(n)
