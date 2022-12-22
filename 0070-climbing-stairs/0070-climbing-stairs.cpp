@@ -1,17 +1,18 @@
 class Solution {
 public:
-    int climbStairs(int n) {
-        if (n == 1) return 1;
+    unordered_map<int, int> m;
+    int dp(int i){
         
-        int first = 1;
-        int second = 2;
-        
-        for (int i = 3; i <= n; ++i){
-            int third = first + second;
-            first = second;
-            second = third;
+    
+        if (i <= 2)
+            return i; 
+        if (!m.count(i)){
+            m[i] = dp(i - 1) + dp(i - 2);
         }
-        
-        return second;
+        return m[i];
+    }
+    
+    int climbStairs(int n) {
+        return dp(n);
     }
 };
