@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/ciaranSHZhou/LeetCode/tree/main/0049-group-anagrams/) | Medium |
 | [0242-valid-anagram](https://github.com/ciaranSHZhou/LeetCode/tree/main/0242-valid-anagram/) | Easy |
+| [0271-encode-and-decode-strings](https://github.com/ciaranSHZhou/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/ciaranSHZhou/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/ciaranSHZhou/LeetCode/tree/main/0049-group-anagrams/) | Medium |
+| [0271-encode-and-decode-strings](https://github.com/ciaranSHZhou/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ciaranSHZhou/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -47,4 +49,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ciaranSHZhou/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0271-encode-and-decode-strings](https://github.com/ciaranSHZhou/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 <!---LeetCode Topics End-->
