@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/ciaranSHZhou/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/ciaranSHZhou/LeetCode/tree/main/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/ciaranSHZhou/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0242-valid-anagram](https://github.com/ciaranSHZhou/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/ciaranSHZhou/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## String
@@ -27,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/ciaranSHZhou/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/ciaranSHZhou/LeetCode/tree/main/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/ciaranSHZhou/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/ciaranSHZhou/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/ciaranSHZhou/LeetCode/tree/main/0271-encode-and-decode-strings/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ciaranSHZhou/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -58,4 +60,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/ciaranSHZhou/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ciaranSHZhou/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
