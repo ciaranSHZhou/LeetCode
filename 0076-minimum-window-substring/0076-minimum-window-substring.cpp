@@ -22,7 +22,6 @@ public:
             --need[r];
             ++right;
 
-
             while (missing == 0){
                 int currLen = right - left;
                 if (currLen < bestLen){
@@ -37,12 +36,12 @@ public:
                 }
                 ++left;
             }
-
-
         }
 
-        if (bestLen == INT_MAX) return "";
-        return s.substr(bestStart, bestLen);
+        if (bestLen == INT_MAX){
+            return "";
+        }
 
+        return s.substr(bestStart, bestLen);
     }
 };
